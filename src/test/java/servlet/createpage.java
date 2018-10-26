@@ -21,7 +21,7 @@ public class createpage extends HttpServlet {
 			String username="postgres";
 			String password="";
 		
-						
+			System.out.println("hello");			
 			Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
 			Statement statement = connection.createStatement();
 			
